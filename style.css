@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.myheader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase {
+  padding-bottom: 138px;
+  position: relative;
+}
+
+.top-right-graphics-wrapper {
+  position: absolute;
+  right: -25px;
+  top: -56px;
+}
+
+.right-graphic-02 {
+  position: absolute;
+  top: -36px;
+  right: 2px;
+}
+
+.bottom-right-graphics-wrapper {
+  position: absolute;
+  right: -25px;
+  top: -56px;
+}
+
+.center-graphic-01 {
+  position: absolute;
+  top: -6px;
+  right: 217px;
+}
+
+.center-graphic-02 {
+  position: absolute;
+  top: -2px;
+  right: 229px;
+}
+
+.right-graphic-03 {
+  position: absolute;
+  top: -12px;
+  right: 2px;
+}
+
+.right-graphic-04 {
+  position: absolute;
+  top: 4px;
+  right: 2px;
+}
+
+.bottom-graphic-02 {
+  position: absolute;
+  top: 117px;
+  right: 75px;
+}
+
+.bottom-graphic-01 {
+  position: absolute;
+  top: 122px;
+  right: 69px;
+}
+
+.bottom-graphic {
+  position: absolute;
+  top: 131px;
+  right: 252px;
+}
+
+.left-graphic-01 {
+  position: absolute;
+  top: -22px;
+  right: 335px;
+}
+
+.left-graphic-02 {
+  position: absolute;
+  top: -32px;
+  right: 344px;
+}
+
+.center-grephic {
+  position: absolute;
+  top: -51px;
+  right: 123px;
+}
+
+.showcase h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-bottom: 12px;
+}
+
+.showcase p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-bottom: 12px;
+}
+
+.showcase a {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-bottom: 14px;
+}
+
+.showcase .socialicons-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.showcase .socialicons-wrapper a {
+  color: #505f79;
+}
+
+.relative {
+  position: relative;
+}
+
+header {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+.my-header {
+  display: flex;
+}
